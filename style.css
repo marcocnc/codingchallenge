@@ -1,0 +1,68 @@
+body{
+    background-image: url(background.jpg);
+    background-size: 100%;
+}
+
+.contenitore{
+    width: 1000px;
+    margin:auto;
+    padding:50px;
+    border: 1px solid rgba(0,0,0,0.0);
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.intro{
+    text-align: center;
+    color:rgb(0, 255, 0);
+    margin-bottom: 1px;
+}
+
+nav{
+    text-align: center;
+    background-color: rgb(0, 255, 0);
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+main{
+    border: 1px solid rgba(0,0,0,0);
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+section, .lim{
+    color: white;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#charge1{
+    background-color: rgb(237, 155, 67);
+    width: 400px;
+    border-radius: 10px;
+    height: 30px;
+}
+
+#charge2{
+    background-color: rgb(76, 237, 67);
+    width: 700px;
+    border-radius: 10px;
+    height: 30px;
+}
+
+#charge3{
+    background-color: rgb(237, 67, 67);
+    width: 200px;
+    border-radius: 10px;
+    height: 30px;
+}
